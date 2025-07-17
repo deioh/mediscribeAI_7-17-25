@@ -1,0 +1,35 @@
+{
+  "name": "medscribe-ai",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"npm:server\" \"npm:client\",
+    "client": "vite --host",
+    "server": "C:\\Python312\\python.exe app.py",
+    "test": "vitest",
+    "lint": "ESLINT_USE_FLAT_CONFIG=false eslint . --ext .ts,.tsx",
+    "format-check": "prettier --check ."
+  }
+}
+  "dependencies": {
+    "preact": "^10.22.1"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.9.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@typescript-eslint/eslint-plugin": "^8.37.0",
+    "@typescript-eslint/parser": "^8.37.0",
+    "concurrently": "^8.2.2",
+    "eslint": "^9.31.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.5.1",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "jsdom": "^26.1.0",
+    "prettier": "^3.6.2",
+    "vite": "^7.0.4",
+    "vitest": "^3.2.4"
+  }
+}

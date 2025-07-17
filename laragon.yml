@@ -1,0 +1,11 @@
+services:
+  backend:
+    build: .
+    command: python app.py
+    ports:
+      - "3001:3001"
+  frontend:
+    build: .
+    command: npm run client
+    ports:
+      - "5173:5173"

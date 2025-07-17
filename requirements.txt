@@ -1,0 +1,5 @@
+Flask
+dotenv
+google-genai
+waitress
+Flask-Cors

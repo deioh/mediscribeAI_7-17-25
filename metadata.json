@@ -1,0 +1,6 @@
+{
+  "name": "MedScribe AI",
+  "description": "An AI-powered web app that expands clinical shorthand into full patient notes using the Gemini API.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
